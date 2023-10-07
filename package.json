@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "@types/react": "^18",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-router": "^6",
+    "react-router-dom": "^6"
   }
 }
